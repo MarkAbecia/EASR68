@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif""Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #040404;
+}
+.Main{
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("1.jpg");
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.form{
+	border-radius: 50px;
+	width: 380px;
+	height: 400px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+}
+.btnbox{
+	width: 245px;
+	margin: 35px auto;
+	position: relative;
+	border: 2px solid #fff040;
+	border-radius: 30px;
+}
+.btns{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 135px;
+	height: 100%;
+	background: linear-gradient(to right, #fce828, #fa3d42);
+	border-radius: 30px;
+	transition: .5s;
+}
+.logo{
+	border-radius: 50px 50px 0 0;
+	padding: 10px;
+	background:  #040404;
+}
+.inputgrp{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.infield{
+	width: 100%;
+	padding: 10px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #040404;
+	outline: none;
+	background: transparent;
+	margin: 20px 0 20px 0;
+	appearance: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.btnsubmit{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #fce828, #fa3d42);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+#admin{
+	left: 50px;
+}
+#employee{
+	left: 450px;
+}
